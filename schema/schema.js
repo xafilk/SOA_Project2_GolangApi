@@ -12,10 +12,10 @@ const {
 } = graphql;
 
 let config = {
-  user: "svcrestaurantapp",
-  password: "12345",
-  server: "192.168.1.104",
-  database: "SOA_Restaurant"
+  user: "sa",
+  password: "Password123",
+  server: "10.107.150.135",
+  database: "SOA_Project2_Restaurant"
 };
 const pool1 = new sql.ConnectionPool(config);
 const pool1Connecft = pool1.connect();
